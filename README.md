@@ -32,19 +32,26 @@
 > **Note:** allure must be setup
 
 * Run with tags
+
   ```
   mvn clean test -Dtest="CucumberRunnerTest" -DexcludedGroups="Ignore" -Dtags="verify_user_deleted" 
   ```
+  
 * Run with groups
+
   ```
   mvn clean test -DexcludedGroups="Ignore" -Dgroups="smoke"
   ```
+  
 * System env
+
   ```
   mvn clean test -Denv="local"
   ```
 
 ## Allure
+
+
 * Run command 
 
 `allure serve target/allure-results `
@@ -104,11 +111,6 @@ api request class = MyClassApiRequest
 
 api request model json = myModel.json
 ```
-
-## Allure
-* Run command
-
-`allure serve target/allure-results `
 
 ## Tagging
 
