@@ -1,0 +1,11 @@
+{
+  "request": {
+    "name": "",
+    "number": 0
+  },
+  "successResponseSchema": {
+    "name": "String",
+    "number": "Integer",
+    "id": "String"
+  }
+}

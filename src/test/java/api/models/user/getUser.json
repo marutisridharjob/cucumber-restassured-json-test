@@ -1,0 +1,7 @@
+{
+  "successResponseSchema": {
+    "name": "String",
+    "number": "Integer",
+    "id": "String"
+  }
+}
