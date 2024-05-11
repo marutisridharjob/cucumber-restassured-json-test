@@ -17,6 +17,7 @@
 
 
 * Go to project path on terminal and run command
+* Version 0.17.4 must be installed `npm install -g json-server@0.17.4`
 
   ```
   json-server --port 7000 --routes routes.json --watch db.json
@@ -34,13 +35,13 @@
 * Run with tags
 
   ```
-  mvn clean test -Dtest="CucumberRunnerTest" -DexcludedGroups="Ignore" -Dtags="verify_user_deleted" 
+  mvn clean test -Dtest="CucumberRunnerTest" -D"cucumber.filter.tags=@verify_user_deleted" -DthreadCount=1
   ```
   
 * Run with groups
 
   ```
-  mvn clean test -DexcludedGroups="Ignore" -Dgroups="smoke"
+  mvn clean test -Dgroups="smoke"
   ```
   
 * System env
